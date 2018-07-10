@@ -1,0 +1,849 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayesMultinomialText -P 0 -M 3.0 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer
+Relation:     train
+Instances:    1309
+Attributes:   11
+              survived
+              pclass
+              name
+              sex
+              age
+              sibsp
+              parch
+              ticket
+              fare
+              cabin
+              embarked
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Dictionary size: 786
+
+The independent frequency of a class
+--------------------------------------
+0	551.0
+1	760.0
+
+The frequency of a word given the class
+-----------------------------------------
+          0	          1	
+        3.0	<laplace=1>	Jacques
+<laplace=1>	        3.0	Louisa
+<laplace=1>	        8.0	Louise
+        3.0	<laplace=1>	Austin
+<laplace=1>	        4.0	Elin
+        4.0	        3.0	Michael
+<laplace=1>	        3.0	31352
+<laplace=1>	        4.0	110152
+<laplace=1>	        5.0	Richards
+<laplace=1>	        4.0	Compton
+<laplace=1>	        3.0	231919
+        5.0	        5.0	Daniel
+<laplace=1>	        4.0	Julius
+      409.0	      550.0	0
+        8.0	       11.0	2
+<laplace=1>	        4.0	2315
+        3.0	<laplace=1>	3
+<laplace=1>	        3.0	B5
+        3.0	<laplace=1>	5
+<laplace=1>	        3.0	11751
+        3.0	<laplace=1>	Andreas
+<laplace=1>	        3.0	11753
+       22.0	       42.0	A
+       29.0	       56.0	C
+        4.0	        5.0	D
+        3.0	       11.0	E
+        6.0	       17.0	F
+        4.0	        3.0	G
+        6.0	        7.0	H
+        8.0	        7.0	J
+        4.0	        5.0	STON/O2
+<laplace=1>	        7.0	L
+<laplace=1>	        3.0	Elmer
+        3.0	<laplace=1>	M
+<laplace=1>	        4.0	Paul
+       15.0	       15.0	O
+        7.0	        7.0	P
+        8.0	       10.0	Q
+<laplace=1>	        5.0	Agnes
+<laplace=1>	        4.0	R
+<laplace=1>	        5.0	Morgan
+       13.0	       11.0	S
+        3.0	<laplace=1>	Courtenay
+<laplace=1>	        3.0	11967
+<laplace=1>	        3.0	C6
+<laplace=1>	        3.0	C7
+        3.0	<laplace=1>	Oreskovic
+       10.0	       12.0	W
+       14.0	       10.0	CA
+<laplace=1>	        4.0	Khalil
+        4.0	        3.0	Harris
+<laplace=1>	        4.0	Harper
+<laplace=1>	        4.0	3101315
+        4.0	<laplace=1>	Tannous
+<laplace=1>	        8.0	y
+        3.0	<laplace=1>	Alfrida
+<laplace=1>	        7.0	Ada
+        3.0	<laplace=1>	Lalio
+        7.0	        3.0	Rev
+<laplace=1>	       10.0	Edith
+<laplace=1>	        4.0	17483
+        7.0	<laplace=1>	347088
+<laplace=1>	        3.0	17485
+        8.0	<laplace=1>	347082
+        3.0	<laplace=1>	Josef
+        3.0	<laplace=1>	347080
+        9.0	       13.0	Samuel
+<laplace=1>	        3.0	E8
+<laplace=1>	        4.0	Laroche
+        8.0	        5.0	2343
+<laplace=1>	        3.0	Foley
+        3.0	<laplace=1>	Luka
+        8.0	        6.0	Ernest
+<laplace=1>	        3.0	349256
+<laplace=1>	        7.0	347077
+<laplace=1>	        3.0	Campbell
+<laplace=1>	        3.0	347072
+        4.0	        5.0	Benjamin
+<laplace=1>	        4.0	F2
+        5.0	        5.0	Dr
+<laplace=1>	        4.0	Dean
+<laplace=1>	        5.0	F4
+<laplace=1>	        3.0	Hamalainen
+<laplace=1>	        3.0	Taussig
+        4.0	<laplace=1>	Planke
+<laplace=1>	        3.0	17464
+        3.0	        3.0	Adolf
+       13.0	       17.0	Edward
+        3.0	        4.0	G6
+<laplace=1>	        3.0	851
+<laplace=1>	        4.0	2123
+<laplace=1>	        3.0	Antoinette
+        3.0	<laplace=1>	349237
+<laplace=1>	        6.0	220845
+<laplace=1>	        3.0	17475
+<laplace=1>	        3.0	17477
+        3.0	<laplace=1>	347054
+<laplace=1>	        4.0	17474
+        7.0	        3.0	2144
+        3.0	<laplace=1>	Harald
+        4.0	        4.0	Johansson
+        3.0	        4.0	White
+        3.0	<laplace=1>	Maurice
+<laplace=1>	        5.0	SC/AH
+<laplace=1>	        3.0	Dunton
+        5.0	        4.0	Ford
+        3.0	        3.0	Jacob
+        7.0	<laplace=1>	Panula
+        3.0	        4.0	Edvin
+        3.0	<laplace=1>	Lobb
+       34.0	       40.0	John
+<laplace=1>	        3.0	Mallet
+<laplace=1>	        3.0	13529
+<laplace=1>	        4.0	Peacock
+<laplace=1>	        3.0	230433
+<laplace=1>	        3.0	13528
+<laplace=1>	        6.0	Howard
+       17.0	       20.0	George
+<laplace=1>	        3.0	Vera
+        3.0	<laplace=1>	54636
+<laplace=1>	        3.0	Billiard
+<laplace=1>	        3.0	Karun
+<laplace=1>	        3.0	Johanna
+<laplace=1>	        3.0	II
+<laplace=1>	        4.0	Nelson
+<laplace=1>	        3.0	Cardeza
+        3.0	<laplace=1>	Sigrid
+<laplace=1>	        4.0	Spencer
+        3.0	       24.0	Elizabeth
+<laplace=1>	        4.0	Spedden
+       56.0	      206.0	Miss
+<laplace=1>	        3.0	Parrish
+        3.0	<laplace=1>	Danbom
+<laplace=1>	        3.0	Virginia
+<laplace=1>	        3.0	13534
+<laplace=1>	        3.0	Bishop
+<laplace=1>	        3.0	Beane
+<laplace=1>	        3.0	E24
+<laplace=1>	        3.0	E25
+        3.0	<laplace=1>	Peder
+<laplace=1>	        3.0	Navratil
+<laplace=1>	        3.0	13508
+<laplace=1>	        8.0	Asplund
+<laplace=1>	        4.0	Constance
+<laplace=1>	        4.0	33112
+<laplace=1>	        3.0	33595
+<laplace=1>	        5.0	Elsie
+       12.0	        6.0	Richard
+        3.0	       10.0	Annie
+<laplace=1>	        3.0	Maggie
+<laplace=1>	        4.0	13502
+<laplace=1>	        4.0	Frauenthal
+<laplace=1>	        3.0	Emanuel
+        3.0	        3.0	Johannes
+<laplace=1>	        4.0	Quick
+<laplace=1>	        4.0	Col
+        3.0	<laplace=1>	G73
+        3.0	<laplace=1>	Attalah
+<laplace=1>	        3.0	E33
+<laplace=1>	        3.0	112378
+<laplace=1>	        4.0	E34
+<laplace=1>	        3.0	Cor
+        7.0	        9.0	Jr
+<laplace=1>	        3.0	Aks
+<laplace=1>	        5.0	Julia
+<laplace=1>	        3.0	Doling
+        3.0	<laplace=1>	Hagland
+        3.0	        3.0	Ali
+<laplace=1>	        4.0	Graham
+        5.0	<laplace=1>	4133
+<laplace=1>	        3.0	E46
+<laplace=1>	        3.0	Zakarian
+<laplace=1>	        3.0	Assad
+<laplace=1>	        3.0	Assaf
+<laplace=1>	        3.0	Fredrik
+        3.0	<laplace=1>	Marija
+<laplace=1>	        3.0	Bonnell
+        6.0	<laplace=1>	Hansen
+       17.0	       23.0	Charles
+<laplace=1>	        3.0	E50
+<laplace=1>	        3.0	Marjorie
+<laplace=1>	        3.0	Emilia
+<laplace=1>	        3.0	Amy
+<laplace=1>	        6.0	Delia
+<laplace=1>	        3.0	Leopold
+<laplace=1>	        3.0	Eva
+        6.0	<laplace=1>	Olsen
+<laplace=1>	        4.0	34651
+        3.0	<laplace=1>	Antti
+<laplace=1>	        4.0	Emilio
+        4.0	<laplace=1>	Ann
+<laplace=1>	        4.0	Drew
+        3.0	        3.0	C22
+      438.0	      322.0	Mr
+        3.0	        5.0	C23
+        3.0	        3.0	C26
+<laplace=1>	        3.0	Ms
+        3.0	        5.0	C25
+        3.0	        5.0	C27
+<laplace=1>	        4.0	11767
+        4.0	        4.0	Williams
+        3.0	<laplace=1>	Gerious
+<laplace=1>	        3.0	11769
+<laplace=1>	        3.0	Achilles
+<laplace=1>	        4.0	Oskar
+<laplace=1>	        3.0	11765
+<laplace=1>	        3.0	C31
+<laplace=1>	        3.0	C32
+        7.0	        4.0	A/4
+<laplace=1>	        5.0	Elisabeth
+       16.0	        8.0	A/5
+<laplace=1>	        3.0	Edmund
+<laplace=1>	        3.0	11778
+       22.0	       72.0	PC
+        4.0	<laplace=1>	Leo
+<laplace=1>	        3.0	Drake
+<laplace=1>	        4.0	PP
+<laplace=1>	        3.0	Franklin
+        8.0	        6.0	Andersson
+<laplace=1>	        3.0	Stanton
+<laplace=1>	        3.0	35273
+<laplace=1>	        3.0	3085
+        3.0	<laplace=1>	358585
+<laplace=1>	        7.0	Emily
+        7.0	        9.0	Karl
+<laplace=1>	        8.0	17608
+        4.0	<laplace=1>	Svensson
+<laplace=1>	        3.0	Weisz
+<laplace=1>	        3.0	Snyder
+<laplace=1>	        3.0	Maxmillian
+<laplace=1>	        3.0	17603
+<laplace=1>	        3.0	C52
+<laplace=1>	        3.0	Anton
+<laplace=1>	        3.0	C55
+<laplace=1>	        3.0	C54
+<laplace=1>	        3.0	C57
+<laplace=1>	        3.0	/PARIS
+        3.0	<laplace=1>	Coleff
+<laplace=1>	        4.0	Thorne
+<laplace=1>	        3.0	Allen
+        3.0	<laplace=1>	Vande
+<laplace=1>	        3.0	Monypeny
+<laplace=1>	        3.0	Borland
+<laplace=1>	        6.0	Nellie
+       12.0	       21.0	Joseph
+<laplace=1>	        3.0	17611
+<laplace=1>	        3.0	C62
+<laplace=1>	        3.0	Mabel
+<laplace=1>	        3.0	C64
+        3.0	<laplace=1>	Meyer
+<laplace=1>	        4.0	Edgar
+<laplace=1>	       10.0	Kate
+<laplace=1>	        4.0	37671
+<laplace=1>	        3.0	Gladys
+<laplace=1>	        3.0	Manley
+        3.0	<laplace=1>	Braund
+<laplace=1>	        3.0	Keane
+<laplace=1>	        4.0	Washington
+        7.0	        3.0	Goodwin
+<laplace=1>	        3.0	SC
+<laplace=1>	        3.0	Jose
+<laplace=1>	        3.0	Sarah
+        4.0	        3.0	Boulos
+        3.0	        3.0	Norman
+<laplace=1>	        4.0	A34
+<laplace=1>	        3.0	350405
+<laplace=1>	        3.0	Pauline
+        5.0	<laplace=1>	Vander
+<laplace=1>	        4.0	C78
+        8.0	        4.0	Martin
+<laplace=1>	        3.0	Noel
+<laplace=1>	        3.0	Leary
+<laplace=1>	        3.0	13236
+<laplace=1>	        3.0	Mahon
+<laplace=1>	        3.0	C80
+<laplace=1>	        5.0	Hocking
+<laplace=1>	        3.0	Sophia
+<laplace=1>	        3.0	Scott
+<laplace=1>	        3.0	C85
+       10.0	       12.0	Arthur
+<laplace=1>	        3.0	Crosby
+<laplace=1>	        3.0	C89
+        3.0	<laplace=1>	371110
+<laplace=1>	        3.0	230080
+<laplace=1>	        3.0	Harder
+        3.0	<laplace=1>	Calic
+<laplace=1>	        3.0	Bowerman
+<laplace=1>	        3.0	Melville
+        3.0	<laplace=1>	244252
+<laplace=1>	        3.0	Guillaume
+<laplace=1>	        3.0	C93
+<laplace=1>	        3.0	C92
+<laplace=1>	        3.0	Nicola-Yarred
+<laplace=1>	        5.0	Martha
+<laplace=1>	        3.0	Oakley
+<laplace=1>	        3.0	Hoyt
+<laplace=1>	        3.0	345572
+        5.0	        8.0	Harry
+        5.0	        3.0	Andrew
+<laplace=1>	        3.0	McGowan
+<laplace=1>	        4.0	Gertrude
+<laplace=1>	        3.0	Gerios
+<laplace=1>	        3.0	13695
+<laplace=1>	        3.0	Maxfield
+<laplace=1>	        3.0	Jennie
+<laplace=1>	        6.0	16966
+<laplace=1>	        3.0	Lines
+<laplace=1>	        8.0	Brown
+        3.0	<laplace=1>	Baptiste
+<laplace=1>	        4.0	347742
+<laplace=1>	        3.0	Clara
+<laplace=1>	        3.0	Wright
+        3.0	<laplace=1>	Mark
+<laplace=1>	        4.0	Irene
+<laplace=1>	        4.0	Nilsson
+<laplace=1>	        4.0	Daly
+<laplace=1>	        3.0	C106
+        3.0	        4.0	Hanna
+<laplace=1>	        4.0	C101
+<laplace=1>	        4.0	Warren
+        4.0	<laplace=1>	Stanley
+<laplace=1>	        3.0	Clark
+        6.0	       26.0	Mary
+        4.0	<laplace=1>	Hickman
+<laplace=1>	        4.0	Madeleine
+<laplace=1>	        3.0	Bloomfield
+<laplace=1>	        5.0	Herman
+        3.0	        3.0	Jean
+<laplace=1>	        3.0	C116
+<laplace=1>	        4.0	Wick
+        5.0	<laplace=1>	349909
+        3.0	<laplace=1>	364849
+        3.0	        5.0	Fortune
+<laplace=1>	        5.0	Marion
+        4.0	<laplace=1>	Stephen
+<laplace=1>	        3.0	392096
+<laplace=1>	        3.0	Samaan
+<laplace=1>	        4.0	Christy
+<laplace=1>	        3.0	C126
+<laplace=1>	        3.0	C125
+        3.0	<laplace=1>	C124
+<laplace=1>	        3.0	Dennick
+        5.0	        6.0	Francis
+<laplace=1>	        5.0	Helene
+<laplace=1>	        3.0	Hedwig
+<laplace=1>	        3.0	Zebley
+<laplace=1>	        3.0	Potter
+<laplace=1>	        3.0	17453
+        4.0	<laplace=1>	345773
+<laplace=1>	        4.0	Clifford
+<laplace=1>	        3.0	113806
+<laplace=1>	        4.0	Moubarek
+<laplace=1>	        3.0	Straus
+        3.0	<laplace=1>	Saad
+<laplace=1>	        3.0	Jenny
+        3.0	<laplace=1>	345764
+<laplace=1>	        3.0	19877
+<laplace=1>	        4.0	17421
+<laplace=1>	        3.0	Klasen
+        3.0	<laplace=1>	Olsson
+<laplace=1>	        3.0	226875
+<laplace=1>	        4.0	Coutts
+<laplace=1>	        4.0	Amelia
+<laplace=1>	        5.0	Jessie
+<laplace=1>	        3.0	Mlle
+        3.0	<laplace=1>	Moran
+        3.0	        4.0	Kelly
+<laplace=1>	        3.0	Angle
+<laplace=1>	        3.0	392091
+        4.0	<laplace=1>	Percival
+<laplace=1>	        3.0	2625
+        3.0	<laplace=1>	Arnold-Franchi
+        8.0	       12.0	Robert
+<laplace=1>	        3.0	237789
+<laplace=1>	        4.0	Solomon
+<laplace=1>	        4.0	Kink-Heilmann
+<laplace=1>	        4.0	Murphy
+        3.0	<laplace=1>	2627
+<laplace=1>	        3.0	13050
+<laplace=1>	        5.0	Becker
+<laplace=1>	        4.0	Jefferys
+<laplace=1>	        3.0	Baxter
+<laplace=1>	        3.0	Marshall
+        3.0	<laplace=1>	Yousseff
+<laplace=1>	        4.0	E101
+        8.0	       10.0	SOTON/O
+        5.0	        5.0	August
+        3.0	<laplace=1>	Arnold
+<laplace=1>	        4.0	26360
+        3.0	<laplace=1>	Brien
+<laplace=1>	        3.0	Pillsbury
+<laplace=1>	        3.0	Burns
+<laplace=1>	        3.0	Adrian
+<laplace=1>	        4.0	2650
+        4.0	        5.0	Emil
+<laplace=1>	        4.0	Vivian
+<laplace=1>	        3.0	Phyllis
+<laplace=1>	        4.0	Lily
+<laplace=1>	        4.0	Augustus
+        6.0	        4.0	Victor
+        3.0	<laplace=1>	Petroff
+<laplace=1>	        6.0	Oscar
+<laplace=1>	        4.0	Gordon
+<laplace=1>	        3.0	Frolicher-Stehli
+        3.0	<laplace=1>	Anthony
+<laplace=1>	        4.0	2661
+<laplace=1>	        3.0	2660
+        5.0	        3.0	Gustafsson
+        8.0	        5.0	Sage
+<laplace=1>	        3.0	E121
+        3.0	<laplace=1>	35281
+<laplace=1>	        3.0	Goldenberg
+<laplace=1>	        3.0	Messemaeker
+<laplace=1>	        5.0	24160
+        5.0	        9.0	Patrick
+<laplace=1>	        3.0	Laura
+        3.0	<laplace=1>	Rosblom
+<laplace=1>	        4.0	Nora
+<laplace=1>	        4.0	2653
+        3.0	<laplace=1>	Lewis
+<laplace=1>	        3.0	2651
+<laplace=1>	        3.0	Pokrnic
+<laplace=1>	        3.0	Polk
+        3.0	<laplace=1>	Turpin
+<laplace=1>	        3.0	Faunthorpe
+        3.0	        9.0	Helen
+<laplace=1>	        3.0	Rothschild
+<laplace=1>	        3.0	31921
+<laplace=1>	        7.0	Katherine
+        3.0	        5.0	Carter
+<laplace=1>	        3.0	Astor
+<laplace=1>	       10.0	Ellen
+<laplace=1>	        4.0	2668
+        3.0	        3.0	Bengtsson
+<laplace=1>	        5.0	2666
+        3.0	<laplace=1>	2665
+<laplace=1>	        5.0	36928
+<laplace=1>	        3.0	Simon
+<laplace=1>	        3.0	Fleming
+<laplace=1>	        3.0	2662
+        3.0	        5.0	113781
+<laplace=1>	        3.0	111361
+        3.0	<laplace=1>	Henrik
+<laplace=1>	        3.0	Hudson
+<laplace=1>	        3.0	Parker
+        3.0	        5.0	Edvard
+<laplace=1>	        3.0	Hanora
+<laplace=1>	        4.0	Ruth
+        3.0	<laplace=1>	2678
+<laplace=1>	        4.0	2673
+       12.0	        8.0	Alfred
+<laplace=1>	        4.0	Dodge
+<laplace=1>	        3.0	Hippach
+<laplace=1>	        4.0	315153
+<laplace=1>	        3.0	Josefina
+        3.0	<laplace=1>	2691
+        4.0	<laplace=1>	Bourke
+<laplace=1>	        4.0	Eleanor
+<laplace=1>	        5.0	113760
+<laplace=1>	        4.0	33638
+<laplace=1>	        3.0	113505
+<laplace=1>	        5.0	113503
+        3.0	<laplace=1>	Neal
+        8.0	        8.0	STON/O
+        3.0	<laplace=1>	Zabour
+<laplace=1>	        4.0	Goldsmith
+<laplace=1>	        4.0	Nakid
+<laplace=1>	        3.0	Gertrud
+<laplace=1>	        3.0	228414
+        3.0	<laplace=1>	Duane
+<laplace=1>	        3.0	Persson
+<laplace=1>	        3.0	Hall
+<laplace=1>	        6.0	Emma
+<laplace=1>	        3.0	Eustis
+        3.0	        7.0	de
+        5.0	<laplace=1>	Lefebre
+<laplace=1>	        3.0	363291
+<laplace=1>	        3.0	Buckley
+        3.0	<laplace=1>	Morley
+        6.0	        3.0	Nils
+        3.0	        3.0	Watson
+        3.0	        3.0	Karlsson
+<laplace=1>	        4.0	29106
+        3.0	<laplace=1>	Manuel
+<laplace=1>	        3.0	Stone
+        3.0	<laplace=1>	Owen
+<laplace=1>	        3.0	29105
+<laplace=1>	        3.0	Rosalie
+<laplace=1>	        4.0	29103
+        5.0	<laplace=1>	Palsson
+<laplace=1>	        4.0	Touma
+<laplace=1>	        5.0	Frances
+        3.0	        3.0	Cacic
+<laplace=1>	        5.0	Taylor
+        3.0	<laplace=1>	Carlsson
+        3.0	        3.0	Olof
+<laplace=1>	        4.0	Miller
+<laplace=1>	        3.0	113572
+        5.0	<laplace=1>	Hans
+<laplace=1>	        3.0	17585
+        8.0	       14.0	Alexander
+<laplace=1>	        3.0	17582
+        4.0	        4.0	Sofia
+<laplace=1>	        3.0	Connolly
+        5.0	<laplace=1>	6608
+        4.0	<laplace=1>	Reginald
+        3.0	<laplace=1>	3336
+<laplace=1>	        3.0	2003
+<laplace=1>	        4.0	Eliza
+<laplace=1>	        3.0	Romaine
+<laplace=1>	        3.0	Kenyon
+       25.0	       25.0	Henry
+        3.0	        3.0	6607
+        6.0	<laplace=1>	Rice
+<laplace=1>	        3.0	17599
+<laplace=1>	        3.0	17592
+        3.0	<laplace=1>	17593
+<laplace=1>	        3.0	Greenfield
+<laplace=1>	        4.0	Lillian
+<laplace=1>	        3.0	11813
+<laplace=1>	        4.0	Lucien
+        3.0	<laplace=1>	Lauritz
+        4.0	<laplace=1>	Jensen
+<laplace=1>	        3.0	Sleeper
+        3.0	        3.0	Johnston
+<laplace=1>	        3.0	Hilda
+<laplace=1>	        3.0	Duff
+<laplace=1>	        3.0	752
+        8.0	        4.0	Leonard
+<laplace=1>	        3.0	Eileen
+<laplace=1>	        4.0	Clarke
+<laplace=1>	        5.0	F33
+        3.0	        6.0	Davies
+<laplace=1>	        3.0	Gretchen
+        4.0	        4.0	Douglas
+        3.0	        3.0	Hart
+<laplace=1>	        3.0	Sara
+<laplace=1>	        4.0	Miriam
+<laplace=1>	        3.0	367230
+<laplace=1>	        5.0	May
+<laplace=1>	        3.0	Rogers
+<laplace=1>	        5.0	Edwin
+        3.0	        4.0	Gilbert
+<laplace=1>	        3.0	Rosa
+        4.0	       12.0	Margaret
+<laplace=1>	        3.0	Thornton
+<laplace=1>	        3.0	Jonsson
+<laplace=1>	        4.0	367226
+        3.0	<laplace=1>	Flynn
+        4.0	        4.0	Augusta
+<laplace=1>	        3.0	D10
+        4.0	        4.0	Johnson
+        3.0	<laplace=1>	Brogren
+       20.0	       20.0	James
+<laplace=1>	        3.0	D12
+<laplace=1>	        3.0	4001
+<laplace=1>	        3.0	Andrews
+        4.0	<laplace=1>	Anders
+<laplace=1>	        3.0	Harold
+        3.0	        3.0	Allison
+<laplace=1>	        3.0	D15
+<laplace=1>	        4.0	Caldwell
+<laplace=1>	        3.0	D17
+<laplace=1>	        6.0	Jane
+<laplace=1>	        3.0	D19
+<laplace=1>	        3.0	Minahan
+        7.0	        3.0	SOTON/OQ
+        8.0	        7.0	Peter
+        5.0	       11.0	Frank
+<laplace=1>	        3.0	D21
+<laplace=1>	        3.0	Dickinson
+<laplace=1>	        3.0	D20
+        3.0	<laplace=1>	D26
+<laplace=1>	        3.0	D28
+<laplace=1>	        3.0	21228
+<laplace=1>	        3.0	Mock
+<laplace=1>	        3.0	Franz
+<laplace=1>	        3.0	Davis
+        3.0	<laplace=1>	11668
+<laplace=1>	        3.0	Hirvonen
+        3.0	<laplace=1>	SOTON/O2
+<laplace=1>	        3.0	Morris
+        4.0	       12.0	Albert
+        3.0	<laplace=1>	Berglund
+<laplace=1>	        3.0	Chambers
+<laplace=1>	        4.0	Betros
+<laplace=1>	        3.0	3101298
+<laplace=1>	        3.0	D33
+        3.0	<laplace=1>	7534
+<laplace=1>	        3.0	D36
+<laplace=1>	       12.0	Alice
+<laplace=1>	        3.0	D35
+<laplace=1>	        3.0	D37
+        3.0	        4.0	Sidney
+<laplace=1>	        4.0	Caroline
+<laplace=1>	        5.0	Herbert
+<laplace=1>	        3.0	2079
+        8.0	        3.0	David
+        7.0	<laplace=1>	3101295
+<laplace=1>	        3.0	Winifred
+<laplace=1>	        4.0	Wells
+<laplace=1>	        4.0	31029
+<laplace=1>	        3.0	Giles
+<laplace=1>	        3.0	Newell
+<laplace=1>	        3.0	Lucile
+        7.0	<laplace=1>	Skoog
+<laplace=1>	        6.0	Philip
+<laplace=1>	        3.0	Larned
+<laplace=1>	        3.0	Rowe
+<laplace=1>	        5.0	Hays
+<laplace=1>	        3.0	36947
+<laplace=1>	        5.0	230136
+<laplace=1>	        3.0	Kimball
+        3.0	<laplace=1>	/5
+<laplace=1>	        4.0	West
+<laplace=1>	        4.0	Wilson
+<laplace=1>	        3.0	B18
+        3.0	<laplace=1>	Anderson
+<laplace=1>	        5.0	12749
+        9.0	        7.0	/C
+        6.0	<laplace=1>	382652
+<laplace=1>	        3.0	B20
+        4.0	        5.0	/P
+<laplace=1>	        3.0	Mellinger
+<laplace=1>	        3.0	Ralph
+<laplace=1>	        3.0	Needs
+<laplace=1>	        3.0	B28
+<laplace=1>	        3.0	Eugenie
+        3.0	<laplace=1>	Jussila
+        4.0	        9.0	SC/PARIS
+        4.0	        4.0	Ivan
+        4.0	<laplace=1>	Impe
+<laplace=1>	        4.0	Lamson
+        3.0	<laplace=1>	Chapman
+<laplace=1>	        3.0	B35
+<laplace=1>	        7.0	Bertram
+<laplace=1>	        3.0	Lane
+<laplace=1>	        3.0	Godfrey
+        4.0	        6.0	Catherine
+<laplace=1>	        3.0	110813
+<laplace=1>	        6.0	Bridget
+<laplace=1>	        3.0	Duran
+<laplace=1>	        3.0	Abelseth
+<laplace=1>	        3.0	B41
+        3.0	        4.0	Abraham
+<laplace=1>	        6.0	Ryerson
+<laplace=1>	        3.0	B45
+<laplace=1>	        4.0	Thayer
+<laplace=1>	        3.0	B49
+        3.0	<laplace=1>	370129
+        3.0	        3.0	Dorothy
+<laplace=1>	        3.0	Luise
+<laplace=1>	        4.0	Borie
+<laplace=1>	        3.0	B51
+       15.0	       23.0	Thomas
+<laplace=1>	        3.0	B53
+<laplace=1>	        3.0	B55
+<laplace=1>	        6.0	B57
+<laplace=1>	        3.0	B58
+<laplace=1>	        6.0	B59
+       18.0	       45.0	Master
+        3.0	        3.0	Barbara
+        4.0	<laplace=1>	Wilhelm
+<laplace=1>	        3.0	Dyker
+<laplace=1>	        3.0	B60
+<laplace=1>	        3.0	Stengel
+<laplace=1>	        6.0	B63
+<laplace=1>	        6.0	B66
+<laplace=1>	        3.0	Hughes
+<laplace=1>	        4.0	Charlotte
+<laplace=1>	        3.0	B69
+        4.0	<laplace=1>	Jakob
+        3.0	        5.0	Ida
+        3.0	<laplace=1>	Erik
+<laplace=1>	        3.0	248727
+<laplace=1>	        3.0	2908
+<laplace=1>	        3.0	Thompson
+<laplace=1>	        3.0	13567
+<laplace=1>	        3.0	B77
+<laplace=1>	        3.0	B78
+<laplace=1>	        4.0	Percy
+       42.0	       46.0	William
+<laplace=1>	        4.0	Walton
+<laplace=1>	        4.0	248738
+<laplace=1>	        8.0	Marie
+<laplace=1>	        5.0	Ware
+<laplace=1>	        4.0	Ward
+<laplace=1>	        3.0	Adele
+<laplace=1>	        4.0	9549
+        8.0	       12.0	Maria
+<laplace=1>	        3.0	Winnie
+<laplace=1>	        3.0	Beckwith
+<laplace=1>	        4.0	Julian
+        3.0	<laplace=1>	Timothy
+<laplace=1>	        3.0	Watt
+<laplace=1>	        4.0	Phillips
+<laplace=1>	        3.0	Widener
+<laplace=1>	        3.0	Susan
+<laplace=1>	        6.0	Anne
+<laplace=1>	        3.0	2926
+<laplace=1>	        3.0	Davison
+        6.0	        3.0	14879
+        6.0	       14.0	Anna
+<laplace=1>	        5.0	B96
+<laplace=1>	        5.0	B98
+        5.0	<laplace=1>	Viktor
+<laplace=1>	        5.0	Hannah
+        4.0	<laplace=1>	Hugh
+<laplace=1>	        3.0	Gibson
+        3.0	        7.0	1601
+        3.0	<laplace=1>	Hugo
+        3.0	<laplace=1>	48871
+<laplace=1>	        3.0	Moor
+        5.0	<laplace=1>	Van
+<laplace=1>	        8.0	Florence
+<laplace=1>	        3.0	386525
+<laplace=1>	        4.0	Katie
+<laplace=1>	        4.0	17569
+<laplace=1>	        3.0	110413
+<laplace=1>	        3.0	Carr
+       11.0	       12.0	Frederick
+        3.0	        3.0	van
+<laplace=1>	        3.0	19996
+<laplace=1>	        4.0	17572
+        4.0	        4.0	Smith
+<laplace=1>	        8.0	Carl
+<laplace=1>	        3.0	Abbott
+<laplace=1>	        4.0	28220
+<laplace=1>	        4.0	Sandstrom
+<laplace=1>	        3.0	Alexandra
+       28.0	      175.0	Mrs
+<laplace=1>	        3.0	364516
+<laplace=1>	        3.0	More
+       14.0	       10.0	Johan
+<laplace=1>	        5.0	Baclini
+        4.0	<laplace=1>	Larsson
+        5.0	        4.0	Ernst
+        3.0	<laplace=1>	Strom
+        3.0	<laplace=1>	Mathias
+        4.0	<laplace=1>	Rene
+<laplace=1>	        3.0	Louch
+<laplace=1>	        3.0	Cumings
+        4.0	<laplace=1>	Matilda
+<laplace=1>	        3.0	17558
+<laplace=1>	        3.0	17761
+<laplace=1>	        3.0	Martinez
+        3.0	<laplace=1>	110465
+        4.0	<laplace=1>	239853
+        3.0	<laplace=1>	Juha
+<laplace=1>	        4.0	17760
+<laplace=1>	        3.0	Collyer
+        6.0	<laplace=1>	Gustaf
+<laplace=1>	        3.0	250644
+<laplace=1>	        4.0	Youssef
+<laplace=1>	        4.0	McCoy
+<laplace=1>	        3.0	19943
+<laplace=1>	        3.0	250649
+        3.0	<laplace=1>	250647
+<laplace=1>	        4.0	Isidor
+        3.0	        5.0	19950
+<laplace=1>	        4.0	Frederic
+<laplace=1>	        3.0	29750
+<laplace=1>	        3.0	Thomson
+<laplace=1>	        3.0	24065
+<laplace=1>	        4.0	Eugene
+<laplace=1>	        3.0	Lindqvist
+<laplace=1>	        5.0	Bradley
+        6.0	        5.0	Elias
+        4.0	<laplace=1>	LINE
+<laplace=1>	        3.0	19928
+        3.0	<laplace=1>	Matti
+        4.0	        8.0	Walter
+<laplace=1>	        5.0	Ethel
+        3.0	<laplace=1>	239865
+        3.0	        4.0	SC/Paris
+        3.0	<laplace=1>	28403
+<laplace=1>	        3.0	Dick
+<laplace=1>	        3.0	Stuart
+        3.0	<laplace=1>	Malkolm
+<laplace=1>	        3.0	17758
+<laplace=1>	        3.0	17759
+<laplace=1>	        8.0	Bertha
+<laplace=1>	        3.0	Lucy
+<laplace=1>	        5.0	17755
+<laplace=1>	        4.0	17756
+<laplace=1>	        5.0	17757
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         265               67.43   %
+Incorrectly Classified Instances       128               32.57   %
+Kappa statistic                          0.3606
+Mean absolute error                      0.3938
+Root mean squared error                  0.4787
+Relative absolute error                 80.7398 %
+Root relative squared error             96.831  %
+Total Number of Instances              393     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,778    0,403    0,588      0,778    0,670      0,374    0,715     0,581     0
+                 0,597    0,222    0,785      0,597    0,678      0,374    0,715     0,789     1
+Weighted Avg.    0,674    0,299    0,701      0,674    0,675      0,374    0,715     0,700     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 130  37 |   a = 0
+  91 135 |   b = 1
+

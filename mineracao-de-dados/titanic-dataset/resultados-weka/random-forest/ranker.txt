@@ -1,0 +1,34 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     train-weka.filters.unsupervised.attribute.Remove-R3-4,8,10-11
+Instances:    1309
+Attributes:   6
+              survived
+              pclass
+              age
+              sibsp
+              parch
+              fare
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 1 survived):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.04692  6 fare
+ 0.044    2 pclass
+ 0.02064  4 sibsp
+ 0.00611  5 parch
+ 0        3 age
+
+Selected attributes: 6,2,4,5,3 : 5
+
